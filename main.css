@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(50, 49, 49);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/* Header  */
+
+header {
+    position: fixed;
+    z-index: 10;
+    background-color: #fcf9f9;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.logo{
+    font-family: 'Lemonada', cursive;
+    font-size: 1.1rem;
+    padding-top: 0.6rem;
+    color: #d87d75;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 1.5rem 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.navigation-item {
+    margin-right: 2rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(50, 49, 49);
+}
+
+/* About me */
+
+.container {
+    position: absolute;
+    top: 90px;
+    left: 10%;
+    margin: 2rem auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#info-about-me {
+    width: 50%;
+    padding: 2%;
+    margin-top: 1rem;
+    font-size: 1.15rem;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+#descr-1 {
+    font-size: 1.3rem;
+    margin-bottom: 1.1rem;
+}
+
+#descr-2 {
+    margin-bottom: 0.5rem;
+}
+
+.portfolio-image img {
+    height: auto;
+    border-radius: 50%;
+    border: 6px solid #dbaba8;
+    width: 250px;
+    height: auto;
+    margin-top: 2.5rem;
+}
+
