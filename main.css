@@ -114,10 +114,14 @@ main {
 }
 
 .project-info {
-    /* display: flex; */
+    display: flex;
     margin: 15px;
-    display: none;
 }
+
+#info1, #info2, #info3 {
+display: none;
+}
+
 
 .project-info img {
     max-width: 600px;
@@ -141,4 +145,36 @@ main {
     margin-left: 5rem;
     font-size: 1.15rem;
     align-self: center;
+}
+
+/* My skills */
+
+.subtitle-2 {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.skill-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.box span {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.skill-icons i {
+    font-size: 5rem;
+    margin: 0.8rem;
+    color: rgb(42, 41, 41);
 }
