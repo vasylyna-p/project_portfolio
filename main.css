@@ -178,3 +178,31 @@ display: none;
     margin: 0.8rem;
     color: rgb(42, 41, 41);
 }
+
+/* Contact */
+
+.contact-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.image-container img {
+    width: 60px;
+    height: auto;
+    margin: 30px;
+}
+
+.contact-subtitle {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0 2rem;
+}
+
+
+#footer-info {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
