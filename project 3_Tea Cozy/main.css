@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    font-size: 23px;
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    position: fixed;
+    z-index: 3;
+    background-color: black;
+    padding-top: 10px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+}
+#image-logo {
+    height: 50px;
+    left: 10px;
+    position: absolute;
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    height: 49px;
+    align-items: center;
+}
+
+.navigation-item {
+    margin-right: 30px;
+}
+.link {
+    color: seashell;
+}
+
+#mission {
+    width: 1200px;
+    height: 700px;
+    background-image: url(./img/img-mission-background.jpg);
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+}
+
+.our-mission {
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    top: 45%;
+    padding: 8px 0;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+#tea-of-the-month {
+    width: 1000px;
+    margin: 150px auto 50px auto;
+}
+
+.container {
+ margin-top: 25px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.tea-container {
+    margin-right: 30px;
+}
+
+.tea-container img {
+    width: 300px;
+    height: 200px;
+    margin: 12px 0;
+}
+
+.tea-name {
+    font-weight: bold;
+}
+
+#locations{
+    background-image: url('./img/img-locations-background.jpg');
+    width: 1200px;
+    height: 500px;
+    margin: 20px auto;
+    background-position: center;
+    padding: 50px;
+}
+
+.location-container {
+    display: flex;
+    justify-content: space-around;
+}
+.location-item {
+    width: 300px;
+    background-color: black;
+    padding: 10px;
+}
+
+.location-item p {
+    margin: 30px 0;
+}
+
+.region {
+    font-weight: bold;
+}
+
+footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
