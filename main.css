@@ -48,9 +48,17 @@ header {
     margin-right: 2rem;
 }
 
-.navigation a {
+.navigation a:hover {
+    color: #d87d75;
+}
+
+a {
     text-decoration: none;
     color: rgb(50, 49, 49);
+}
+
+a:hover {
+    color:  #da948e;
 }
 
 /* About me */
@@ -114,14 +122,9 @@ main {
 }
 
 .project-info {
-    display: flex;
+    display: none;
     margin: 15px;
 }
-
-#info1, #info2, #info3 {
-display: none;
-}
-
 
 .project-info img {
     max-width: 600px;
